@@ -1,0 +1,26 @@
+Instructions for solution to VM manager project.
+
+Java Files: 
+
+	VM.java - This is the solution to this project.
+
+	Frame.java - Representation of physical frame in memory.
+
+	PageTableEntry.java - Representation of each page table entry (PTE).
+
+	TLBEntry.java - Representation of each entry in the TLB.
+
+	MakeBACKING_STORE.java - Java program which produces the 64KB BACKING_STORE file
+
+Other Files:
+
+	InputFile.txt - This is the list of 1000 addresses which have to be translated.
+
+	correct.txt - The correct translation of the addresses contained in InputFile.txt
+
+	BACKING_STORE - This is the 64KB representation of the demand-paged file.
+
+How to Run:
+
+	java VM InputFile.txt
+
